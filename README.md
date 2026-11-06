@@ -65,7 +65,7 @@ every skill adopted there passes both before install.
 ## Quick start
 
 ```bash
-pipx install git+https://github.com/jasveerai88/skill-claims              # or: pip install git+https://github.com/jasveerai88/skill-claims
+pipx install skill-claims              # or: pip install skill-claims
 skill-claims audit ~/Downloads/some-skill
 ```
 
