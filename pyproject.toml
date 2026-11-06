@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "skill-claims"
+version = "1.0.0"
+description = "Receipt an agent skill's claims against its own code — every claim SUPPORTED, UNEVIDENCED or CONTRADICTED, with file-and-line evidence."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Jasveer Singh" },
+]
+keywords = [
+    "agent-skills",
+    "claude-code",
+    "ai-agents",
+    "honesty",
+    "audit",
+    "static-analysis",
+    "cli",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jasveerai88/skill-claims"
+Repository = "https://github.com/jasveerai88/skill-claims"
+Issues = "https://github.com/jasveerai88/skill-claims/issues"
+
+[project.scripts]
+skill-claims = "skill_claims:main"
+
+# The implementation is a single standard-library module in
+# src/; it is installed as the top-level module `skill_claims`,
+# and `python3 src/skill_claims.py` keeps working from a checkout.
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = ["skill_claims"]
