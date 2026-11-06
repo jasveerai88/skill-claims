@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Receipt an agent skill's claims against its own code — every claim SUPPORTED, UNEVIDENCED or CONTRADICTED, with file-and-line evidence."
 readme = "README.md"
 requires-python = ">=3.10"
-license = { text = "MIT" }
+license = "MIT"
 authors = [
     { name = "Jasveer Singh" },
 ]
@@ -25,7 +25,6 @@ classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Environment :: Console",
     "Intended Audience :: Developers",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3.10",
@@ -40,6 +39,7 @@ dependencies = []
 Homepage = "https://github.com/jasveerai88/skill-claims"
 Repository = "https://github.com/jasveerai88/skill-claims"
 Issues = "https://github.com/jasveerai88/skill-claims/issues"
+Changelog = "https://github.com/jasveerai88/skill-claims/blob/main/CHANGELOG.md"
 
 [project.scripts]
 skill-claims = "skill_claims:main"
