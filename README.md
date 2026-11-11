@@ -404,3 +404,5 @@ MIT — see [LICENSE](LICENSE).
 
 If skill-claims catches a skill lying to you, consider
 [sponsoring](https://github.com/sponsors/jasveerai88).
+Sponsorship funds the time to maintain skill-claims, ship
+fixes, and build the next checks its users ask for.
