@@ -42,6 +42,12 @@ proves the read-only claim: a fixture script that would write
 a marker file if it ran never runs, and every fixture tree
 comes out byte-identical after an audit.
 
+## Watch it run
+
+A real `audit` of the bundled lying-formatter: the capability claim comes back SUPPORTED, then the offline, read-scope and credentials claims flip to CONTRADICTED with the evidence lines on screen — verdict CONTRADICTED (32 seconds, real run, nothing staged).
+
+![skill-claims demo video: an 'offline' formatter's receipt flips CONTRADICTED on three claims](https://github.com/jasveerai88/skill-claims/raw/refs/heads/main/docs/skill-claims-demo.mp4)
+
 ## The honesty pair (and the trio)
 
 Two different questions get asked before a skill is trusted,
